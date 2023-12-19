@@ -1,0 +1,85 @@
+.loginbutton,
+.setaddress,
+.logoutbutton {
+  position: absolute;
+  width: 242px;
+  height: 85px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.loginIcon {
+    position: absolute;
+    height: 54.12%;
+    width: 15.64%;
+    top: 21.18%;
+    right: 16.46%;
+    bottom: 24.71%;
+    left: 67.9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .i {
+    position: absolute;
+    top: 31.76%;
+    left: 21.81%;
+    letter-spacing: -0.05em;
+    font-size : 20px;
+    line-height: 140%;
+    font-weight: 700;
+  }
+
+.i1 {
+    position: absolute;
+    top: 31.76%;
+    left: 17.28%;
+    letter-spacing: -0.05em;
+    font-size : 20px;
+    font-weight: 700;
+  }
+
+  .i2 {
+    position: absolute;
+    top: 31.76%;
+    left: 25.51%;
+    letter-spacing: -0.05em;
+    font-size : 20px;
+    line-height: 140%;
+    font-weight: 700;
+  }
+  .logoutIcon {
+    position: absolute;
+    height: auto;
+    width: 20px;
+    top: 36%;
+    right: 16.46%;
+    left: 62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+.loginbutton {
+  top: 150px;
+}
+
+.setaddress {
+  top: 450px;
+}
+
+.logoutbutton {
+  top: 300px;
+  background-color: #678a58;
+}
+
+.tabBar {
+  position: fixed;  /* 고정 위치로 변경 */
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;  /* 적절한 배경색 지정 */
+}

@@ -1,0 +1,271 @@
+
+.pickuplogo1Icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .logobutton {
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 105px);
+    width: 210px;
+    height: 140px;
+  }
+  .storelistbuttonChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .i,
+  .storeList {
+    position: absolute;
+    top: 12.26%;
+    left: 5.81%;
+    
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    font-weight: 600;
+    
+  }
+  .i {
+    top: 63.21%;
+    left: 6.12%;
+    font-size: 15px;
+    color: #4c3e3e;
+  }
+  .storelistIcon {
+    position: absolute;
+    height: 51.89%;
+    width: 17.13%;
+    top: 25.13%;
+    right: 7.03%;
+    bottom: 16.98%;
+    left: 75.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .storelistbutton {
+    position: absolute;
+    top: 145px;
+    left: calc(50% - 163px);
+    width: 326px;
+    height: 106px;
+    font-size: 28px;
+    
+  }
+  .homescreenChild {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 171px);
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 342px;
+    height: 158px;
+    overflow: hidden;
+  }
+  .i1,
+  .i2 {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    font-weight: 700;
+  }
+  .i2 {
+    top: 29px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #454444;
+  }
+  
+  .recommendButtonImg,
+  .parent {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  .parent {
+    height: 70.36%;
+    width: 100%;
+    top: 5.54%;
+    right: 0;
+    bottom: 24.1%;
+    border-radius: 10px;
+    background-color: #f7f5f5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .recommendButtonImg {
+    height: 100%;
+    width: 98.3%;
+    top: 0;
+    right: 1.7%;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .recommendbutton {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 150px);
+    width: 142px;
+    height: 195px;
+  }
+  .room {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    font-weight: 700;
+  }
+  .p {
+    margin: 0;
+  }
+  .i3,
+  .roomParent {
+    position: absolute;
+  }
+  .i3 {
+    top: 29px;
+    left: 10px;
+    font-size: 9px;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    display: inline-block;
+    font-weight: 500;
+    color: #454343;
+    text-align: left;
+    width: 80px;
+  }
+  .roomParent {
+    height: 98.3%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 1.7%;
+    left: 0;
+    border-radius: 10px;
+    background-color: #f7f5f5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .rewardroomImg {
+    position: absolute;
+    height: 66.38%;
+    width: 57.73%;
+    top: 33.62%;
+    right: 19.01%;
+    bottom: 0;
+    left: 23.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pickUp,
+  .rewardroombutton {
+    position: absolute;
+    top: 340px;
+    left: calc(50% + 10px);
+    width: 141px;
+    height: 141px;
+  }
+  .pickUp {
+    top: 290px;
+    left: calc(50% - 160px);
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    display: inline-block;
+    font-weight: 700;
+    width: 88px;
+    height: 26px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .returnbuttonChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  .returnimageIcon {
+    position: absolute;
+    height: 54.12%;
+    width: 15.64%;
+    top: 21.18%;
+    right: 16.46%;
+    bottom: 24.71%;
+    left: 67.9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .i4 {
+    position: absolute;
+    top: 31.76%;
+    left: 17.28%;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    font-weight: 700;
+  }
+  .returnbutton {
+    top: 520px;
+    left: calc(50% - 121px);;
+    width: 242px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .returnbutton{
+    position: absolute;
+  }
+
+  .tabBar{
+    position: absolute;
+    bottom : 0px;
+    width : 100%;
+  }
+ /* .homescreen {
+    position: relative;
+    height: 925px;
+    width: 500px; /* 화면 비율에 맞춰서 너비 설정 */
+    /* 추가적인 스타일 조정 가능 */
+    /*overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: Poppins;
+    /*display: flex;*/
+    /*justify-content: center;
+  }
+  */
