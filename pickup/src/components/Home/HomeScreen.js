@@ -12,6 +12,7 @@ const HomeScreen = () => {
 
   return (
     <div className={styles.homescreen}>
+  
       <div className={styles.logobutton}>
         <img
           className={styles.pickuplogo1Icon}
@@ -19,15 +20,22 @@ const HomeScreen = () => {
           src="/pickupLogo.png"
         />
       </div>
-    
+
+      <div classname={styles.search}>
+        <input type = "text" value = "족발, 보쌈 ..." className = {styles.searchenter}/>
+        <input type = "submit" value="search" className = {styles.searchbutton}/>
+      </div>
+
+      
       <button className={styles.storelistbutton} onClick={handleStoreListClick}>
         <div className={styles.storelistbuttonChild} />
         <i className={styles.storeList}>Store List</i>
         <i className={styles.i}>{`먹고 싶은 음식, 가게를 찾아요 ! `}</i>
         <img className={styles.storelistIcon} alt="" src="/storelistimg.png" />
       </button>
-      
+     
       {/* 기존 버튼을 Link 컴포넌트로 변경 */}
+      <div className = {styles.homescreenmain}>
       <div className={styles.homescreenChild} />
       <div className={styles.recommendbutton}>
         <div className={styles.parent}>
@@ -55,8 +63,8 @@ const HomeScreen = () => {
         />
       </Link>
       <i className={styles.pickUp}>pick up !</i>
-
-      <button className={styles.returnbutton}>
+    </div>
+      <Link to="/qr" className={styles.returnbutton}>
         <div className={styles.returnbuttonChild} />
         <img
           className={styles.returnimageIcon}
@@ -64,7 +72,7 @@ const HomeScreen = () => {
           src="/returnIcon.png"
         />
         <i className={styles.i4}>용기 반납하기</i>
-      </button>
+      </Link>
 
       <div className = {styles.tabBar}>
         <TabBar />

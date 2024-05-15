@@ -51,18 +51,21 @@ const RewardRoom = () => {
           alt="background"
           className={styles.backgroundImage}
         />
-
-        <div className={styles.plantContainer}>
-          {plantLevel === 5 ? (
-            <PlantImage />
-          ) :(<img src={`/level${plantLevel}.png`} alt="plant" className={styles.plantImage} />
-          )}
+        <div className={styles.imageContainer}>
+          <div className={styles.plantContainer}>
+            {plantLevel === 5 ? (
+              <PlantImage />
+            ) :(<img src={`/level${plantLevel}.png`} alt="plant" className={styles.plantImage} />
+            )}
+          </div>
         </div>
       </div>
       <button onClick={handlePointIncrease} className={styles.button} style={{ top: '80%' }}>
         물 주기
       </button>
-      <TabBar />
+      <div className = {styles.tabBar}>
+        <TabBar />
+      </div>
     </div>
   );
 };

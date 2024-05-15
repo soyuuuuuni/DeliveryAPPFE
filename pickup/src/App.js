@@ -8,6 +8,7 @@ import Profile from './components/User/Profile';
 import Home from './components/Home/HomeScreen';
 import './components/Reward/RewardRoom.module.css';
 import './components/Home/Home.module.css';
+import QRReader from './components/Reward/QRReader';
 //import ProtectedPage from "./components/ProtectedPage";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/profile" element = {<Profile/>}/>
         <Route path="/signup" element={<Register />} />
+        <Route path="/qr" element={<QRReader />}/>
       </Routes>
    </Router>
   )

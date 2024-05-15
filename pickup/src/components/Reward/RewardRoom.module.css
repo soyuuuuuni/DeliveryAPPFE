@@ -1,6 +1,8 @@
 .app-container {
-  /*text-align: center;
-  margin-top: 20px;*/
+  text-align: center;
+  margin-top: 10px;
+  height : 100%;
+  width : 100%;
 }
   .header {
     display: flex;
@@ -57,15 +59,20 @@
   }
   
   .backgroundImage{
-    position:'relative';
     width:100%;
     height:70%;
+    text-align : center;
   }
-
+  .imageContainer {
+    position: relative; /* 부모 컨테이너를 상대적인 위치로 설정 */
+    width: 100%;
+    height: 100%;
+  }
   .plant-container {
     position: absolute;
-    bottom: 20%;
-    left: 50%;
+    text-align : center;
+    bottom: 40%;
+  
     /*transform: translateX(-50%);*/
   }
 
@@ -73,7 +80,7 @@
     position: absolute;
     width : 50%;
     height : auto;
-    bottom:12%; /* 식물의 위치를 60%로 조절 */
+    bottom:20%; /* 식물의 위치를 60%로 조절 */
     left: 50%;
     transform: translate(-50%);
     }
@@ -81,9 +88,8 @@
     position : absolute;
     width : 100%;
     height : auto;
-    left : 80%;
+    text-align : center;
     bottom:10%;
-    transform: translate(-50%);
     object-fit : cover;
     
     
@@ -94,4 +100,10 @@
     background-color: rgb(90, 90, 187);
     /* 추가적인 스타일은 필요에 따라 추가하세요 */
   }
-  
+  .tabBar{
+    position : fixed;
+    bottom : 0px;
+    width : 100%;
+
+
+  }
